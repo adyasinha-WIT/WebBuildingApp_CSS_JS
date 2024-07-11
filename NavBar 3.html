@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Lucida-Sans, Calibri;
+  background-color: #C93667;
+}
+
+h2{
+	color: #ff5bad;
+	margin-top: 80px;
+}
+
+p{
+	color: #000000;
+}
+
+.topnav {
+  background-color: #D4AF37;
+  display: flex;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #045D5D;
+  color: #aeeeee;
+}
+
+
+/* a {
+	border: solid #2f093d 2px;
+	display:inline;
+} */
+
+#icon {
+	border: solid #045D5D 4px;
+}
+
+.contentDrop {
+	position: relative;
+	display: inline-block;
+}
+
+/*Drop down content */
+.dropitdown{
+	width: 6rem ;
+	height: 12rem;
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: #EDEAE1;
+	padding: 1rem;
+	top: 4rem;
+}
+
+.contentDrop:hover .dropitdown{
+	display:block;
+	position: absolute;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+<img id="icon" src="pink green gold logo.jpg" height="15%" width="15%">
+<a class="active" href="#Home">Home</a>  
+
+<div class="contentDrop">	
+	<span><a href="#service">Service</a></span>
+	<div class="dropitdown"> 
+		<p>Web Building Services</p>
+		<p>Templates</p>
+		<p>Internet Marketing</p>
+		<p>Pricing</p>
+	</div>
+	</div>
+
+	<div class="contentDrop">	
+		<span><a href="#about">About Us</a></span>
+		<div class="dropitdown"> 
+			<p>Login</p>
+			<p>Register</p>
+			<p>Account</p>
+		</div>
+		</div>
+
+		<div class="contentDrop">	
+			<span><a href="#blog">Blog</a></span>
+			<div class="dropitdown"> 
+				<p>Category</p>
+				<p>Blog & News</p>
+				<p>Related Posts</p>
+				<p>Latest Posts</p>
+			</div>
+			</div>
+
+		<div class="contentDrop">	
+			<span><a href="#support">Support</a></span>
+			<div class="dropitdown"> 
+				<p>FAQs</p>
+				<p>Terms Of Conditions</p>
+				<p>Customer Support</p>
+			</div>
+			</div>
+
+
+			<div class="contentDrop">
+				<span><a href="#account">Account</a></span>
+				  <div class="dropitdown"> 
+					  <p>Login</p>
+					  <p>Register</p>
+					  <p>My Account</p>
+				  </div>
+			  </div>
+
+</div>
+
+<div style="padding-left:22px">
+  <h2>Moodboard 3: Dark pink, green and gold</h2>
+  <p>This is an example navigation bar moodboard 3</p>
+  <img src="green pink gold mb.png" height="50%" width="50%">
+
+</div>
+
+</body>
+</html>
